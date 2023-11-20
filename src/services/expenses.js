@@ -4,9 +4,10 @@ export const GetExpenses = async (dispatch) => {
   try {
     // api call
     const expenses = [
-      { id: 1, description: "Groceries", amount: 23.16 },
-      { id: 2, description: "Gas", amount: 18.52 },
-      { id: 3, description: "Student Loans", amount: 600 },
+      { id: 1, description: "Office Lunch Cost", amount: 25.83 },
+      { id: 2, description: "Transport expense", amount: 275 },
+      { id: 3, description: "Vacation renumeration", amount: 3620 },
+      { id: 4, description: "Certification fee repayment", amount: 1340 },
     ];
 
     dispatch(ActionCreators.setExpenses(expenses));
